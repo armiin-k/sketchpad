@@ -1,0 +1,23 @@
+<!-- 
+Volim te najvise na svijetu <3
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sketchpad v1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload ="defaultGrid(defaultGridArea)">
+    <div id="wrapper">
+      <h1>Sketchpad</h1>
+      <div id="buttonWrapper">
+        <button class="colorButton" onclick="userHoverColor()">Pick a color</button>
+        <button class="resetButton" onclick="resetButton()">Reset</button>
+        <button class="eraserButton" onclick="eraserButton()">Eraser</button>
+        <button class="randColorButton"onclick="rainbowButton()">Rainbow Mode</button>
+      </div>
+    </div>
+    <div id="containerGrid"></div>
+  </body>
+  <script src="gridManager.js"></script>
+</html>

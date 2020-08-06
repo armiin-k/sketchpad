@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers');
+
+body, html {
+    height: 99%;
+}
+
+#wrapper {
+    border: 1px solid transparent;
+    height: 99.5%;
+    width: 1000px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 72px;
+    margin: auto;
+    margin-top: 100px;
+    color: palevioletred;
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: auto auto 25px auto;
+}
+
+#buttonWrapper {
+    margin: auto;
+    margin-top: 100px;
+}
+
+#containerGrid {
+    display: grid;
+    position: fixed;
+    width: 820px;
+    height: 820px;
+    top: 6%;
+    right: 3.5%;
+    border: 1px solid black;
+}
+
+
